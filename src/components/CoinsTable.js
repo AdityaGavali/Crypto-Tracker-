@@ -47,10 +47,10 @@ const CoinsTable = () => {
 
   const useStyles = makeStyles()(() => ({
     row: {
-      backgroundColor: "#16171a",
+      backgroundColor: "#131111",
       cursor: "pointer",
       "&:hover": {
-        backgroundColor: "#131111",
+        backgroundColor: "gray",
       },
       fontFamily: "Montserrat",
     },
@@ -67,7 +67,7 @@ const CoinsTable = () => {
       <Container style={{ textAlign: "center" }}>
         <Typography
           variant="h4"
-          style={{ margin: 18, fontFamily: "Montserrat" }}
+          style={{ margin: 18, fontFamily: "Montserrat" , color:"#34c6eb" }}
         >
           Top Cryptocurrency
         </Typography>

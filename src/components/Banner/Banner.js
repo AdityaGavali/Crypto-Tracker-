@@ -34,19 +34,21 @@ function Banner() {
               fontWeight: "bold",
               marginBottom: 15,
               fontFamily: "Montserrat",
+            
             }}
           >
-            Cryptofolio
+            Crypto Tracker
           </Typography>
           <Typography
             variant="subtitle2"
             style={{
               color: "darkgrey",
+              fontSize: "5xl",
               textTransform: "capitalize",
               fontFamily: "Montserrat",
             }}
           >
-            Get all the Info regarding your favorite Crypto Currency
+            Stay ahead of the game, track your crypto with ease.
           </Typography>
           <Carousel/>
         </div>
