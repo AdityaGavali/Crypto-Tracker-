@@ -2,14 +2,11 @@ import { Container, makeStyles, Typography } from '@material-ui/core'
 import React from 'react'
 import Carousel from './Carousel';
 const useStyles = makeStyles(()=>({
-    banner: {
-        backgroundImage: "url(./bg3.avif)",
-      },
+    
       bannerContent: {
         height: 400,
         display: "flex",
         flexDirection: "column",
-        paddingTop: 25,
         justifyContent: "space-around",
       },
       tagline: {
@@ -25,16 +22,17 @@ function Banner() {
     const classes = useStyles();
     
   return (
-    <div className={classes.banner}>
+    <div >
     <Container className={classes.bannerContent}>
     <div className={classes.tagline}>
+    <Carousel/>
           <Typography
             variant="h2"
             style={{
               fontWeight: "bold",
-              marginBottom: 15,
+              marginBottom: 12,
               fontFamily: "Montserrat",
-            
+              marginTop: 50
             }}
           >
             Crypto Tracker
@@ -46,13 +44,17 @@ function Banner() {
               fontSize: "5xl",
               textTransform: "capitalize",
               fontFamily: "Montserrat",
+              
+              marginBottom: 15,
             }}
           >
             Stay ahead of the game, track your crypto with ease.
           </Typography>
-          <Carousel/>
+          
+        
         </div>
     </Container>
+    
     </div>
   )
 }

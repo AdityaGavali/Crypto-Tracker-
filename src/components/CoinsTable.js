@@ -69,7 +69,7 @@ const CoinsTable = () => {
           variant="h4"
           style={{ margin: 18, fontFamily: "Montserrat" , color:"#34c6eb" }}
         >
-          Top Cryptocurrency
+          Trending Cryptocurrency
         </Typography>
 
 

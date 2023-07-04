@@ -23,7 +23,7 @@ const CoinInfo = (props) => {
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
-      marginTop: 25,
+      margin: 25,
       padding: 40,
       [theme.breakpoints.down("md")]: {
         width: "100%",
@@ -46,7 +46,7 @@ const CoinInfo = (props) => {
 
   useEffect(() => {
     fetchHistoricData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disablpe-next-line react-hooks/exhaustive-deps
   }, [days, currency]);
 
   const darkTheme = createTheme({
