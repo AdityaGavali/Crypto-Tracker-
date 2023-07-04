@@ -1,12 +1,14 @@
 
-# Getting Started with Create React App
+Home Page : 
 ![Screenshot (312)](https://github.com/AdityaGavali/Crypto-Tracker-/assets/85026115/5d20c31b-dbed-49ef-891f-1f9b89c5acfd)
 
+Trending Table:
 ![Screenshot (313)](https://github.com/AdityaGavali/Crypto-Tracker-/assets/85026115/8f89cc94-20a6-4a04-b0c7-10c08124e34f)
 
+Analysis:
 ![Screenshot (314)](https://github.com/AdityaGavali/Crypto-Tracker-/assets/85026115/00367fdd-e6d9-464b-985e-6d051b634664)
 
-
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
